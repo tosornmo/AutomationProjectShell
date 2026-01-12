@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Environment files
+.env
+.env.local
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build / distribution
+dist/
+build/
+
+# Caches and logs
+.pytest_cache/
+.coverage
+*.log
+
+# Misc
+*.swp
