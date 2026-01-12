@@ -1,0 +1,10 @@
+{
+  "name": "@automation/mobile",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "echo \"Run your mobile dev server here (React Native/Expo)\"",
+    "build": "echo \"Build script for mobile\"",
+    "test": "echo \"Run mobile tests\""
+  }
+}
