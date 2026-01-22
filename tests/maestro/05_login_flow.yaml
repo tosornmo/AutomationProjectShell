@@ -1,0 +1,5 @@
+appId: com.apple.mobilesafari
+---
+- launchApp
+- waitForAnimationToEnd
+- takeScreenshot: safari_state

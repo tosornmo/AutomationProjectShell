@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="5.731146000000001">
+<testsuite name="example.spec.ts" timestamp="2026-01-22T09:50:44.275Z" hostname="chromium" tests="3" failures="0" skipped="0" time="1.003" errors="0">
+<testcase name="Homepage Tests › should load homepage" classname="example.spec.ts" time="0.333">
+</testcase>
+<testcase name="Homepage Tests › should have heading" classname="example.spec.ts" time="0.342">
+</testcase>
+<testcase name="Homepage Tests › should have welcome text" classname="example.spec.ts" time="0.328">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-01-22T09:50:44.275Z" hostname="firefox" tests="3" failures="0" skipped="0" time="4.676" errors="0">
+<testcase name="Homepage Tests › should load homepage" classname="example.spec.ts" time="1.71">
+</testcase>
+<testcase name="Homepage Tests › should have heading" classname="example.spec.ts" time="1.938">
+</testcase>
+<testcase name="Homepage Tests › should have welcome text" classname="example.spec.ts" time="1.028">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-01-22T09:50:44.275Z" hostname="webkit" tests="3" failures="0" skipped="0" time="2.069" errors="0">
+<testcase name="Homepage Tests › should load homepage" classname="example.spec.ts" time="0.898">
+</testcase>
+<testcase name="Homepage Tests › should have heading" classname="example.spec.ts" time="0.912">
+</testcase>
+<testcase name="Homepage Tests › should have welcome text" classname="example.spec.ts" time="0.259">
+</testcase>
+</testsuite>
+</testsuites>

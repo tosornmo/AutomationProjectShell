@@ -1,0 +1,32 @@
+services:
+  testlink-db:
+    image: mariadb:10.6
+    container_name: testlink-db
+    environment:
+      MYSQL_ROOT_PASSWORD: testlink_root
+      MYSQL_DATABASE: testlink
+      MYSQL_USER: testlink
+      MYSQL_PASSWORD: testlink_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - testlink_db_data:/var/lib/mysql
+
+  testlink:
+    image: php:8.1-apache
+    container_name: testlink
+    depends_on:
+      - testlink-db
+    ports:
+      - "80:8080"
+    volumes:
+      - testlink_data:/var/www/html
+    environment:
+      DB_HOST: testlink-db
+      DB_DATABASE: testlink
+      DB_USER: testlink
+      DB_PASSWORD: testlink_pass
+
+volumes:
+  testlink_db_data:
+  testlink_data:

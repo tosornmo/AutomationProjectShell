@@ -1,0 +1,4 @@
+appId: com.apple.mobilesafari
+---
+- launchApp
+- waitForAnimationToEnd

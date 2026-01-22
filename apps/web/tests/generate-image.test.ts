@@ -2,9 +2,10 @@ import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest'
 import handler from '../api/generate-image'
 
 function mockRes() {
-  const json = vi.fn()
+  const json = vi.fn(() => undefined)
   const status = vi.fn(() => ({ json }))
-  return { status, json }\n}
+  return { status, json }
+}
 
 describe('generate-image endpoint', () => {
   let OLD_ENV: any
